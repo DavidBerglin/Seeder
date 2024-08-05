@@ -1,0 +1,18 @@
+# create local nuget directory, e.g.
+# /Users/Martin/Development/nugets
+
+# add the directory as a local nuget feed
+# in /Users/Martin/.nuget/NuGet/NuGet.Config under <packageSources> add below line
+    <add key="localfeed" value="/Users/Martin/Development/nugets" />
+
+
+#clear the local nuget cache
+dotnet nuget locals all --clear
+
+#create the nuget package
+dotnet pack -o ./
+
+#publish the nuget package
+dotnet nuget push seedGenerator.1.0.0.nupkg -s /Users/Martin/Development/nugets
+
+
