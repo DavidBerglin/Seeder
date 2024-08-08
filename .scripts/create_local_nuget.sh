@@ -9,15 +9,35 @@
 # in /Users/Martin/.nuget/NuGet/NuGet.Config under <packageSources> add below line
 #   <add key="localfeed" value="/Users/Martin/Development/nugets" />
 
+#must give version as an argument
+if [[ -z $1 ]]; then
+    echo "Verson to publish must be provided, e.g. 1.0.1";
+    exit 1;
+fi
+
+CSPROJ_FILE="../seedGenerator/seedGenerator.csproj"
+NUGET_File="../seedGenerator/seedGenerator.$1.nupkg"
+
+# Property to modify
+PROPERTY_NAME="Version"
+NEW_VALUE="$1"
+
+# Use sed to modify the property value
+
+sed -i -E "s/(<$PROPERTY_NAME>).*?(</$PROPERTY_NAME>)/\1$NEW_VALUE\2/" "$CSPROJ_FILE"
+echo "Updated $PROPERTY_NAME to $NEW_VALUE in $CSPROJ_FILE"
+
+
+exit 1
 
 #clear the local nuget cache
 dotnet nuget locals all --clear
 
 #build the nuget package project
-dotnet build ../seedGenerator/seedGenerator.csproj
+dotnet build $CSPROJ_FILE
 
 #create the nuget package
-dotnet pack ../seedGenerator/seedGenerator.csproj -o ../seedGenerator
+dotnet pack $CSPROJ_FILE -o ../seedGenerator
 
 #publish the nuget package to local feed
-dotnet nuget push ../seedGenerator/seedGenerator.1.0.0.nupkg -s /Users/Martin/Development/nugets
+dotnet nuget push $NUGET_File -s /Users/Martin/Development/seidoNugets
