@@ -3,7 +3,9 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace Models
+namespace Seido {
+namespace Utilities {
+namespace SeedGenerator
 {
     #region exported types
     public interface ISeed<T>
@@ -679,6 +681,7 @@ namespace Models
             }
             #endregion
 
+            [JsonIgnore]
             public string Country => _jsonCountry;
 
             #region Streets towards json file
@@ -902,5 +905,5 @@ namespace Models
         }
     #endregion
     }
-}
+}}}
 

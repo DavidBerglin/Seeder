@@ -180,25 +180,21 @@
   "_addresses": [
     {
       "jsonCountry": "Sweden",
-      "Country": "Sweden",
       "jsonStreets": "Svedjev\u00E4gen, Ringv\u00E4gen, Vasagatan, Odenplan, Birger Jarlsgatan, \u00C4ppelviksv\u00E4gen, Kvarnbacksv\u00E4gen",
       "jsonCities": "Stockholm, G\u00F6teborg, Malm\u00F6, Uppsala, Link\u00F6ping, \u00D6rebro"
     },
     {
       "jsonCountry": "Norway",
-      "Country": "Norway",
       "jsonStreets": "Bygdoy alle, Frognerveien, Pilestredet, Vidars gate, S\u00E5gveien, Toftes gate, Gardeveiend",
       "jsonCities": "Oslo, Bergen, Trondheim, Stavanger, Dramen"
     },
     {
       "jsonCountry": "Denmark",
-      "Country": "Denmark",
       "jsonStreets": "Rolighedsvej, Fensmarkgade, Svanevej, Gr\u00F6ndalsvej, Githersgade, Classensgade, Moltekesvej",
       "jsonCities": "K\u00F6penhamn, \u00C5rhus, Odense, Aahlborg, Esbjerg"
     },
     {
       "jsonCountry": "Finland",
-      "Country": "Finland",
       "jsonStreets": "Arkandiankatu, Liisankatu, Ruoholahdenkatu, Pohjoistranta, Eerikinkatu, Vauhtitie, Itainen Vaideki",
       "jsonCities": "Helsingfors, Espoo, Tampere, Vaanta, Oulu"
     }

@@ -15,8 +15,12 @@ if [[ -z $1 ]]; then
     exit 1;
 fi
 
+
 CSPROJ_FILE="../seedGenerator/seedGenerator.csproj"
-NUGET_File="../seedGenerator/seedGenerator.$1.nupkg"
+NUGET_File="../seedGenerator/Seido.Utilities.SeedGenerator.$1.nupkg"
+
+LOCAL_FEED="/Users/Martin/Development/seidoNugets"
+PUBLISH_FEED="https://pkgs.dev.azure.com/martinlenart/seidoNugets/_packaging/seidoNugets/nuget/v3/index.json"
 
 # Property to modify
 VERSION="$1"
@@ -39,4 +43,12 @@ dotnet build $CSPROJ_FILE
 dotnet pack $CSPROJ_FILE -o ../seedGenerator
 
 #publish the nuget package to local feed
-dotnet nuget push $NUGET_File -s /Users/Martin/Development/seidoNugets
+dotnet nuget push $NUGET_File -s $LOCAL_FEED
+echo "Local publish to $LOCAL_FEED completed";
+
+
+if [[ $2 == 'publish' ]]; then
+    
+    dotnet nuget push $NUGET_File -s $PUBLISH_FEED --api-key seido
+    echo "Artifact publish to $PUBLISH_FEED completed";
+fi

@@ -1,3 +1,5 @@
+using Seido.Utilities.SeedGenerator;
+
 namespace Models
 {
     public class csPet : ISeed<csPet>, IEquatable<csPet>
