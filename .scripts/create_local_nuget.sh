@@ -15,21 +15,19 @@ if [[ -z $1 ]]; then
     exit 1;
 fi
 
-CSPROJ_FILE="../seedGenerator/seedGenerator.csproj1"
+CSPROJ_FILE="../seedGenerator/seedGenerator.csproj"
 NUGET_File="../seedGenerator/seedGenerator.$1.nupkg"
 
 # Property to modify
-PROPERTY_NAME="Version"
-NEW_VALUE="$1"
+VERSION="$1"
 
 # Use sed to modify the property value
-sed -i '' -E 's/<Version>\*\<\/Version>/<Versions>/' "$CSPROJ_FILE"
+#https://sed.js.org/#
+#https://stackoverflow.com/questions/45018156/using-sed-for-search-and-replace-multi-digits
+#sed -i '.bak' -r 's/(<Version>)[0-9]+[.][0-9]+[.][0-9]+(<\/Version>)/\1replace\2/' ../seedGenerator/seedGenerator.csproj1
+sed -i '.bak' -r "s/(<Version>)[0-9]+[.][0-9]+[.][0-9]+(<\/Version>)/\1$VERSION\2/" $CSPROJ_FILE
 
-#sed -i '' -E "s/(<$PROPERTY_NAME>)*(</$PROPERTY_NAME>)/\1$NEW_VALUE\2/" "$CSPROJ_FILE"
-echo "Updated $PROPERTY_NAME to $NEW_VALUE in $CSPROJ_FILE"
-
-
-exit 1
+echo "Updated version to $VERSION in $CSPROJ_FILE"
 
 #clear the local nuget cache
 dotnet nuget locals all --clear
