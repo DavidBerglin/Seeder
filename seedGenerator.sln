@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSeeding", "AppSeeding\AppSeeding.csproj", "{174AEE64-91DA-43CD-9D4E-1ED59E76831E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUsage", "AppUsage\AppUsage.csproj", "{174AEE64-91DA-43CD-9D4E-1ED59E76831E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seedGenerator", "seedGenerator\seedGenerator.csproj", "{371DC545-B011-45F8-B042-8E50747853A5}"
 EndProject
