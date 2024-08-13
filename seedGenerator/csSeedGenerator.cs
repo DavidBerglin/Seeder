@@ -588,7 +588,7 @@ namespace SeedGenerator
                         "Arosmith, Who, AC/DC, Rolling, Stones, Eagles, Deep, Purple, Prince, Dylan",
                     jsonAlbumNames = "Heaven, Rock, Moon, Cosmos, Walk, Hunky, Blue, Highway, " +
                         "Satisfaction, California, Stairway, Purple, Senor",
-                    jsonAlbumPrefix = "A, The, One, The great, A wonderful, Let's rock with, Relaxing, Chill with,  Dance with",
+                    jsonAlbumPrefix = "A, The, One, The great, A wonderful, Let's rock with, Relaxing, Chill with, Dance with",
                     jsonAlbumSuffix = "with friends, with love, with fire, and walking, being happy",
                 }
             };

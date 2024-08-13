@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-     <PackageReference Include="Seido.Utilities.SeedGenerator" Version="1.0.4"/>
+     <PackageReference Include="Seido.Utilities.SeedGenerator" Version="1.0.5"/>
     <!--
      <ProjectReference Include="..\seedGenerator\seedGenerator.csproj" />
-     <PackageReference Include="Seido.Utilities.SeedGenerator" Version="1.0.4" />
+     <PackageReference Include="Seido.Utilities.SeedGenerator" Version="1.0.5" />
     -->
   </ItemGroup>
 
