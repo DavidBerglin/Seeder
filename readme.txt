@@ -1,4 +1,4 @@
-To create a nuget package
+To create and publish nuget package Seido.Utilities.SeedGenerator.x.y.z
 
 1. Create nuget package and publish on localfeed
    With Terminal in folder .script run: ./create_nuget.sh x.y.z  (x.y.z is a version number e.i. 1.0.0)
