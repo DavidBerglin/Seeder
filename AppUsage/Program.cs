@@ -12,7 +12,7 @@ using Models;
 
 namespace AppSeeding
 {
-    public enum enGreetings { Hello, Goodbye, GoodMorning, GoodEvening }
+    public enum Greetings { Hello, Goodbye, GoodMorning, GoodEvening }
     
     class Program
     {
@@ -22,7 +22,7 @@ namespace AppSeeding
             Console.WriteLine("csSeedGenerator Usage Examples");
 
             //Create a generator, inherited from .NET Random
-            var rnd = new csSeedGenerator();
+            var rnd = new SeedGenerator();
 
             Console.WriteLine("Random Names");
             Console.WriteLine($"Firstname: {rnd.FirstName}");
@@ -65,7 +65,7 @@ namespace AppSeeding
             Console.WriteLine("\nFrom String, Enum and List");
 
             Console.WriteLine($"From String: {rnd.FromString("Quick, brown, fox")}");
-            Console.WriteLine($"From Enum {nameof(enGreetings)}: {rnd.FromEnum<enGreetings>()}");
+            Console.WriteLine($"From Enum {nameof(Greetings)}: {rnd.FromEnum<Greetings>()}");
 
             var f = "Cloudy, Stormy, Rainy, Sunny, Windy";
             List<csWeather> _forecast = new List<csWeather>
@@ -126,7 +126,7 @@ namespace AppSeeding
             {
                 fn = "./master-seeds.json";
                 System.Console.WriteLine(Path.GetFullPath(fn));
-                var rndMySeeds = new csSeedGenerator(fn);
+                var rndMySeeds = new SeedGenerator(fn);
 
 
                 Console.WriteLine("Random Names using master-seeds.json file");

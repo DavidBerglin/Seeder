@@ -11,7 +11,7 @@ namespace Models
         #region ISeed implementation to use csSeeGenerator to create random lists
         public bool Seeded { get; set; } = false;
 
-        public csPerson Seed(csSeedGenerator rnd)
+        public csPerson Seed(SeedGenerator rnd)
         {
             FullName = rnd.FullName;
             Birthday = rnd.DateAndTime(1970, 2010);

@@ -10,7 +10,7 @@ namespace Models
         #region ISeed implementation to use csSeeGenerator to create random lists
         public bool Seeded { get; set; } = false;
 
-        public csPet Seed(csSeedGenerator rnd)
+        public csPet Seed(SeedGenerator rnd)
         {
             PetName = rnd.PetName;
             return this;
