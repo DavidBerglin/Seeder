@@ -56,6 +56,9 @@ namespace AppSeeding
             Console.WriteLine("\nRandom Music group and album names");
             Console.WriteLine($"Music group name: {rnd.MusicGroupName}");
             Console.WriteLine($"Music album name: {rnd.MusicAlbumName}");
+            Console.WriteLine($"Music album name: {rnd.MusicAlbumName}");
+            Console.WriteLine($"Album prefix: {rnd.AlbumPrefix}");
+            Console.WriteLine($"Album suffix: {rnd.AlbumSuffix}");
 
             Console.WriteLine("\nDateAndTime and Bool");
             Console.WriteLine($"This Year: {rnd.DateAndTime()}");
