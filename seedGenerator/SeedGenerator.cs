@@ -153,7 +153,7 @@ namespace Seido.Utilities.SeedGenerator
             + " " + _seeds.Music.AlbumSuffix[this.Next(0, _seeds.Music.AlbumSuffix.Count)];
         public string AlbumPrefix => _seeds.Music.AlbumPrefix[this.Next(0, _seeds.Music.AlbumPrefix.Count)];
 
-        public string AlbumSuffix => _seeds.Music.AlbumPrefix[this.Next(0, _seeds.Music.AlbumPrefix.Count)];
+        public string AlbumSuffix => _seeds.Music.AlbumSuffix[this.Next(0, _seeds.Music.AlbumSuffix.Count)];
 
         #endregion
 
