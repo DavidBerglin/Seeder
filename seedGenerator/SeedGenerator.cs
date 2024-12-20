@@ -133,7 +133,12 @@ namespace Seido.Utilities.SeedGenerator
             }
             return sRet;
         }
-
+        public string LatinWordsAsSentence(int tryNrOfItems, string delimiter = ".") 
+        {
+            var s = string.Join(" ", LatinWords(tryNrOfItems)).ToLower().Replace(".", "") + delimiter;
+            return char.ToUpper(s[0]) + s.Substring(1);
+        }
+        
         public string LatinParagraph => LatinParagraphs(1).FirstOrDefault()?.Paragraph;
         public string LatinSentence => LatinSentences(1).FirstOrDefault();
         #endregion

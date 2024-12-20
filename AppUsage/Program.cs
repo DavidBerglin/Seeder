@@ -52,6 +52,9 @@ namespace AppSeeding
             Console.WriteLine($"\nLatin sentence:\n{rnd.LatinSentence}");
             Console.WriteLine($"\n3 Latin sentences:\n{string.Join(" ", rnd.LatinSentences(3))}");
             Console.WriteLine($"\n10 Latin words:\n{string.Join(", ", rnd.LatinWords(10))}");
+            Console.WriteLine($"\nLatin words as sentence:\n{rnd.LatinWordsAsSentence(7)}");
+            Console.WriteLine($"{rnd.LatinWordsAsSentence(5, "!")}");
+            Console.WriteLine($"{rnd.LatinWordsAsSentence(3, "?")}");
 
             Console.WriteLine("\nRandom Music group and album names");
             Console.WriteLine($"Music group name: {rnd.MusicGroupName}");

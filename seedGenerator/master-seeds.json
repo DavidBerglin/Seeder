@@ -1,11 +1,11 @@
 {
-  "_quotes": [
+  "Quotes": [
     {
       "jsonQuote": "Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me.",
       "jsonAuthor": "Michael Scott, The Office"
     },
     {
-      "jsonQuote": "All you need is love. But a little chocolate now and then doesn\u2019t hurt.",
+      "jsonQuote": "All you need is love. But a little chocolate now and then doesn’t hurt.",
       "jsonAuthor": "Charles M. Schulz"
     },
     {
@@ -13,7 +13,7 @@
       "jsonAuthor": "Will Ferrell"
     },
     {
-      "jsonQuote": "I love being married. It\u2019s so great to find one special person you want to annoy for the rest of your life.",
+      "jsonQuote": "I love being married. It’s so great to find one special person you want to annoy for the rest of your life.",
       "jsonAuthor": "Rita Rudner"
     },
     {
@@ -21,7 +21,7 @@
       "jsonAuthor": "Lily Tomlin"
     },
     {
-      "jsonQuote": "Love can change a person the way a parent can change a baby\u2014awkwardly, and often with a great deal of mess.",
+      "jsonQuote": "Love can change a person the way a parent can change a baby—awkwardly, and often with a great deal of mess.",
       "jsonAuthor": "Lemony Snicket"
     },
     {
@@ -37,7 +37,7 @@
       "jsonAuthor": "Unknown"
     },
     {
-      "jsonQuote": "The four most important words in any marriage\u2014I\u2019ll do the dishes.",
+      "jsonQuote": "The four most important words in any marriage—I’ll do the dishes.",
       "jsonAuthor": "Unknown"
     },
     {
@@ -45,7 +45,7 @@
       "jsonAuthor": "Unknown"
     },
     {
-      "jsonQuote": "You know that tingly little feeling you get when you like someone? That\u2019s your common sense leaving your body.",
+      "jsonQuote": "You know that tingly little feeling you get when you like someone? That’s your common sense leaving your body.",
       "jsonAuthor": "Unknown"
     },
     {
@@ -53,7 +53,7 @@
       "jsonAuthor": "Bill Gates"
     },
     {
-      "jsonQuote": "Doing nothing is very hard to do\u2026 you never know when you\u2019re finished.",
+      "jsonQuote": "Doing nothing is very hard to do… you never know when you’re finished.",
       "jsonAuthor": "Leslie Nielsen"
     },
     {
@@ -81,7 +81,7 @@
       "jsonAuthor": "Scott Adams"
     },
     {
-      "jsonQuote": "My keyboard must be broken, I keep hitting the escape key, but I\u2019m still at work.",
+      "jsonQuote": "My keyboard must be broken, I keep hitting the escape key, but I’m still at work.",
       "jsonAuthor": "Unknown"
     },
     {
@@ -105,7 +105,7 @@
       "jsonAuthor": "Susan Orlean"
     },
     {
-      "jsonQuote": "Procrastination is like a credit card: it\u0027s a lot of fun until you get the bill.",
+      "jsonQuote": "Procrastination is like a credit card: it's a lot of fun until you get the bill.",
       "jsonAuthor": "Christopher Parker"
     },
     {
@@ -113,7 +113,7 @@
       "jsonAuthor": "Don Roff"
     },
     {
-      "jsonQuote": "I\u0027m going to stop putting things off, starting tomorrow!",
+      "jsonQuote": "I'm going to stop putting things off, starting tomorrow!",
       "jsonAuthor": "Sam Levenson"
     },
     {
@@ -129,7 +129,7 @@
       "jsonAuthor": "Don Marquis"
     },
     {
-      "jsonQuote": "If it weren\u0027t for the last minute, nothing would get done.",
+      "jsonQuote": "If it weren't for the last minute, nothing would get done.",
       "jsonAuthor": "Rita Mae Brown"
     },
     {
@@ -137,15 +137,15 @@
       "jsonAuthor": "Jerome K. Jerome"
     },
     {
-      "jsonQuote": "Procrastination isn\u0027t the problem. It\u0027s the solution. It\u0027s the universe\u0027s way of saying stop, slow down, you move too fast.",
+      "jsonQuote": "Procrastination isn't the problem. It's the solution. It's the universe's way of saying stop, slow down, you move too fast.",
       "jsonAuthor": "Ellen DeGeneres"
     },
     {
-      "jsonQuote": "Procrastinate now, don\u0027t put it off.",
+      "jsonQuote": "Procrastinate now, don't put it off.",
       "jsonAuthor": "Ellen DeGeneres"
     }
   ],
-  "_latin": [
+  "Latin": [
     {
       "jsonParagraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis convallis convallis tellus id interdum velit laoreet id donec. Sem nulla pharetra diam sit amet nisl.Id porta nibh venenatis cras sed felis eget. Non quam lacus suspendisse faucibus interdum posuere lorem. Vitae purus faucibus ornare suspendisse sed nisi lacus sed.Sapien faucibus et molestie ac feugiat sed lectus vestibulum.Ornare lectus sit amet est placerat in egestas.Eu consequat ac felis donec et. Placerat orci nulla pellentesque dignissim enim sit.Cras ornare arcu dui vivamus arcu. Diam quis enim lobortis scelerisque fermentum. Rutrum quisque non tellus orci ac auctor augue. Fringilla est ullamcorper eget nulla facilisi. Dui accumsan sit amet nulla.Diam maecenas sed enim ut sem viverra aliquet."
     },
@@ -177,21 +177,21 @@
       "jsonParagraph": "A scelerisque purus semper eget duis at. Tristique risus nec feugiat in fermentum. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Enim nec dui nunc mattis enim. Tincidunt lobortis feugiat vivamus at augue. Magna eget est lorem ipsum dolor. Auctor elit sed vulputate mi. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Pretium viverra suspendisse potenti nullam ac tortor vitae. Amet risus nullam eget felis. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Mi eget mauris pharetra et. Pharetra convallis posuere morbi leo. Justo eget magna fermentum iaculis eu non diam phasellus vestibulum. In mollis nunc sed id semper risus. Bibendum at varius vel pharetra vel turpis."
     }
   ],
-  "_addresses": [
+  "Addresses": [
     {
       "jsonCountry": "Sweden",
-      "jsonStreets": "Svedjev\u00E4gen, Ringv\u00E4gen, Vasagatan, Odenplan, Birger Jarlsgatan, \u00C4ppelviksv\u00E4gen, Kvarnbacksv\u00E4gen",
-      "jsonCities": "Stockholm, G\u00F6teborg, Malm\u00F6, Uppsala, Link\u00F6ping, \u00D6rebro"
+      "jsonStreets": "Svedjevägen, Ringvägen, Vasagatan, Odenplan, Birger Jarlsgatan, Äppelviksvägen, Kvarnbacksvägen",
+      "jsonCities": "Stockholm, Göteborg, Malmö, Uppsala, Linköping, Örebro"
     },
     {
       "jsonCountry": "Norway",
-      "jsonStreets": "Bygdoy alle, Frognerveien, Pilestredet, Vidars gate, S\u00E5gveien, Toftes gate, Gardeveiend",
+      "jsonStreets": "Bygdoy alle, Frognerveien, Pilestredet, Vidars gate, Sågveien, Toftes gate, Gardeveiend",
       "jsonCities": "Oslo, Bergen, Trondheim, Stavanger, Dramen"
     },
     {
       "jsonCountry": "Denmark",
-      "jsonStreets": "Rolighedsvej, Fensmarkgade, Svanevej, Gr\u00F6ndalsvej, Githersgade, Classensgade, Moltekesvej",
-      "jsonCities": "K\u00F6penhamn, \u00C5rhus, Odense, Aahlborg, Esbjerg"
+      "jsonStreets": "Rolighedsvej, Fensmarkgade, Svanevej, Gröndalsvej, Githersgade, Classensgade, Moltekesvej",
+      "jsonCities": "Köpenhamn, Århus, Odense, Aahlborg, Esbjerg"
     },
     {
       "jsonCountry": "Finland",
@@ -199,18 +199,18 @@
       "jsonCities": "Helsingfors, Espoo, Tampere, Vaanta, Oulu"
     }
   ],
-  "_names": {
-    "jsonFirstNames": "Harry, Lord, Hermione, Albus, Severus, Ron, Draco, Frodo, Gandalf, Sam, Peregrin, Saruman",
-    "jsonLastNames": "Potter, Voldemort, Granger, Dumbledore, Snape, Malfoy, Baggins, the Gray, Gamgee, Took, the White",
-    "jsonPetNames": "Asterix, Obelix, Dogmatix, Getafix, Vitalstatistix, Cacofonix, Geriatrix, Unhygienix, Fulliautomatix, Monosyllabix, Polysyllabix"
+  "Names": {
+    "jsonFirstNames": "Fred, Wilma, Barney, Betty, Pebbles, Dino, Baby, Bamm-Bamm, Harry, Lord, Hermione, Albus, Severus, Ron, Draco, Frodo, Gandalf, Sam, Peregrin, Saruman",
+    "jsonLastNames": "Flintstone, Rubble, Potter, Voldemort, Granger, Dumbledore, Snape, Malfoy, Baggins, the Gray, Gamgee, Took, the White",
+    "jsonPetNames": "Asterix, Obelix, Dogmatix, Getafix, Vitalstatistix, Cacofonix, Geriatrix, Unhygienix, Fulliautomatix" 
   },
-  "_domains": {
+  "Domains": {
     "jsonDomainNames": "icloud.com, me.com, mac.com, hotmail.com, gmail.com"
   },
-  "_music": {
+  "Music": {
     "jsonGroupNames": "Led, Zeppelin, Queen, Pink, Floyd, Creedence, Clearwater, Revival, Arosmith, Who, AC/DC, Rolling, Stones, Eagles, Deep, Purple, Prince, Dylan",
     "jsonAlbumNames": "Heaven, Rock, Moon, Cosmos, Walk, Hunky, Blue, Highway, Satisfaction, California, Stairway, Purple, Senor",
-    "jsonAlbumPrefix": "A, The, One, The great, A wonderful, Let\u0027s rock with, Relaxing, Chill with,  ",
+    "jsonAlbumPrefix": "A, The, One, The great, A wonderful, Let's rock with, Relaxing, Chill with, Dance with",
     "jsonAlbumSuffix": "with friends, with love, with fire, and walking, being happy"
   }
 }
