@@ -9,7 +9,7 @@
     <PackageId>Seido.Utilities.SeedGenerator</PackageId>
     <Version>1.0.7</Version>
     <Authors>Martin Lenart</Authors>
-    <Description>A random seeder for C# .NET 8.0 projects and above</Description>
+    <Description>A random seeder for C# .NET 9.0 projects and above</Description>
   </PropertyGroup>
 
   <!--
