@@ -217,7 +217,6 @@ namespace Seido.Utilities.SeedGenerator
 
         #region Generate seeded List of TItem
 
-        //ISeed<TItem> has to be implemented to use this method
         public List<TItem> ItemsToList<TItem>(int NrOfItems)
             where TItem : ISeed<TItem>, new()
         {
@@ -230,7 +229,6 @@ namespace Seido.Utilities.SeedGenerator
             return _list;
         }
 
-        //Create a list of unique randomly seeded items
         public List<TItem> UniqueItemsToList<TItem>(int tryNrOfItems, List<TItem> appendToUnique = null)
             where TItem : ISeed<TItem>, IEquatable<TItem>, new()
         {

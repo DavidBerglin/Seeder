@@ -74,16 +74,16 @@ namespace AppSeeding
             Console.WriteLine($"From Enum {nameof(Greetings)}: {rnd.FromEnum<Greetings>()}");
 
             var f = "Cloudy, Stormy, Rainy, Sunny, Windy";
-            List<csWeather> _forecast = new List<csWeather>
+            List<Weather> _forecast = new List<Weather>
             {
-                new csWeather{ Temp = rnd.NextDecimal(100, 300), Visibility = rnd.FromString(f)},
-                new csWeather{ Temp = rnd.NextDecimal(100, 300), Visibility = rnd.FromString(f)},
-                new csWeather{ Temp = rnd.NextDecimal(100, 300), Visibility = rnd.FromString(f)}
+                new Weather{ Temp = rnd.NextDecimal(100, 300), Visibility = rnd.FromString(f)},
+                new Weather{ Temp = rnd.NextDecimal(100, 300), Visibility = rnd.FromString(f)},
+                new Weather{ Temp = rnd.NextDecimal(100, 300), Visibility = rnd.FromString(f)}
             };
-            Console.WriteLine($"From List {nameof(csWeather)} : {rnd.FromList(_forecast)}");
+            Console.WriteLine($"From List {nameof(Weather)} : {rnd.FromList(_forecast)}");
 
             Console.WriteLine("\nGenerating a randomly seeded list");
-            var _persons = rnd.ItemsToList<csPerson>(10);
+            var _persons = rnd.ItemsToList<Person>(10);
             foreach (var item in _persons)
             {
                 Console.WriteLine(item);
@@ -92,9 +92,9 @@ namespace AppSeeding
 
             Console.WriteLine("\nGenerating a list of unique, randomly seeded, items");
             int _tryNrItems = 1000;
-            var _pets = rnd.UniqueItemsToList<csPet>(_tryNrItems);
-            Console.WriteLine($"Try to generate {_tryNrItems} unique {nameof(csPet)}");
-            Console.WriteLine($"{_pets.Count} unique {nameof(csPet)} could be created");
+            var _pets = rnd.UniqueItemsToList<Pet>(_tryNrItems);
+            Console.WriteLine($"Try to generate {_tryNrItems} unique {nameof(Pet)}");
+            Console.WriteLine($"{_pets.Count} unique {nameof(Pet)} could be created");
             foreach (var item in _pets)
             {
                 Console.WriteLine(item);
@@ -113,8 +113,8 @@ namespace AppSeeding
             }
 
 
-            var _AnotherPicklist = rnd.ItemsToList<csPet>(10000);
-            var _AnotherUniquePicks = rnd.UniqueItemsPickedFromList<csPet>(_tryNrItems, _AnotherPicklist);
+            var _AnotherPicklist = rnd.ItemsToList<Pet>(10000);
+            var _AnotherUniquePicks = rnd.UniqueItemsPickedFromList<Pet>(_tryNrItems, _AnotherPicklist);
             Console.WriteLine($"\nTry to pick {_tryNrItems} unique items from {nameof(_AnotherPicklist)}");
             Console.WriteLine($"{_AnotherUniquePicks.Count} unique items could be picked");
             foreach (var item in _AnotherUniquePicks)

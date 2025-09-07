@@ -2,7 +2,7 @@ using Seido.Utilities.SeedGenerator;
 
 namespace Models
 {
-    public class csPet : ISeed<csPet>, IEquatable<csPet>
+    public class Pet : ISeed<Pet>, IEquatable<Pet>
     {
         public string PetName { get; set; }
         public override string ToString() => $"{PetName}";
@@ -10,7 +10,7 @@ namespace Models
         #region ISeed implementation to use csSeeGenerator to create random lists
         public bool Seeded { get; set; } = false;
 
-        public csPet Seed(SeedGenerator rnd)
+        public Pet Seed(SeedGenerator rnd)
         {
             PetName = rnd.PetName;
             return this;
@@ -18,9 +18,9 @@ namespace Models
         #endregion
 
         #region implementing IEquatable to use SeedGenerator Unique lists
-        public bool Equals(csPet other) => (other != null) ? (PetName) == (other.PetName) : false;
+        public bool Equals(Pet other) => (other != null) ? (PetName) == (other.PetName) : false;
 
-        public override bool Equals(object obj) => Equals(obj as csPet);
+        public override bool Equals(object obj) => Equals(obj as Pet);
         public override int GetHashCode() => (PetName).GetHashCode();
         #endregion
 

@@ -2,7 +2,7 @@ using Seido.Utilities.SeedGenerator;
 
 namespace Models
 {
-    public class csPerson : ISeed<csPerson>
+    public class Person : ISeed<Person>
     {
         public string FullName { get; set; }
         public DateTime Birthday { get; set; }
@@ -11,7 +11,7 @@ namespace Models
         #region ISeed implementation to use csSeeGenerator to create random lists
         public bool Seeded { get; set; } = false;
 
-        public csPerson Seed(SeedGenerator rnd)
+        public Person Seed(SeedGenerator rnd)
         {
             FullName = rnd.FullName;
             Birthday = rnd.DateAndTime(1970, 2010);
