@@ -22,7 +22,6 @@ namespace AppSeeding
             Console.WriteLine("csSeedGenerator Usage Examples");
 
             //Create a generator, inherited from .NET Random
-            var rnd = new SeedGenerator();
 
             Console.WriteLine("Random Names");
             Console.WriteLine($"Firstname: {rnd.FirstName}");
